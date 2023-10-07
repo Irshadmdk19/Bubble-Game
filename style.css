@@ -18,7 +18,7 @@ html,body{
 }
 .panel{
     width: 80%;
-    height: 80%;
+    height:80%;
     background-color: white;
     border-radius: 20px;
     overflow: hidden;
@@ -26,8 +26,9 @@ html,body{
 .ptop{
     width: 100%;
     height: 100px;
-    background-color: rgb(33, 120, 91);
-    display: flex;
+    background-color: rgb(33, 120, 92);
+    
+        display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 0 26%;
@@ -38,12 +39,14 @@ html,body{
     align-items: center;
     justify-content: space-between;
     gap: 12px;
-    color: white;
+    color: rgb(255, 255, 255);
+    
 }
 .box{
     background-color: white;
     padding: 6px 12px;
-    color: black;
+    color: rgb(33, 120, 92);
+    font-weight: 800;
     border-radius: 7px;
 }
 
@@ -52,13 +55,19 @@ html,body{
     gap: 10px;
     flex-wrap: wrap;
     width: 100%;
-    height: calc(100%-100px);
+    height: calc(100% -100px);
     padding: 20px;
+
+    /* This is for JS to make Time Out display on center when time is up  */
+    justify-content: center; 
+    align-items: center;
 }
 .bubble{
     width: 45px;
     height: 45px;
-    background-color: rgb(42, 192, 117);
+    background-color: rgb(33, 120, 92);
+    color: white;
+    font-weight: 800;
     border-radius: 50%;
     display: flex;
     align-items: center;
